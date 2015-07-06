@@ -1,0 +1,27 @@
+{
+  "name": "requirePrivate",
+  "version": "0.0.1",
+  "description": "Require function for private objects",
+  "main": "require-private.js",
+  "scripts": {
+    "test": "jasmine",
+    "test-watch": "watch jasmine"
+  },
+  "keywords": [
+    "js",
+    "require",
+    "test"
+  ],
+  "author": "Elergy",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.3.1",
+    "watch": "^0.16.0"
+  },
+  "dependencies": {
+    "abbrev": "^1.0.7",
+    "async": "^1.3.0",
+    "istanbul": "^0.3.17",
+    "mkdirp": "^0.5.1"
+  }
+}
